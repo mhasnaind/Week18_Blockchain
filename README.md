@@ -20,12 +20,14 @@ Details for
 Pre-configured Node 01:
 
 Public address of the key: 0x029d14259e87FA8A14229a86a55F2076571a6dBC
+
 Private address of the key: 0x88ce6ff321d69e72427ccf1e1ef949b16d584a6fd5b9ec032f89c195c53ff170
 
 
 Pre-configured Node 02:
 
 Public address of the key:  0xcdaF41Bbe50a47B6B4322B61b09c85980D6EA00b
+
 Private address of the key: 0x1a4630a6d3ea9973c6b3145c9a4d626869a09c15c23c45c839c4260503b6efb2
 
 Testnet: introblockchainnet
