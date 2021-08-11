@@ -47,7 +47,7 @@ For each node:
 
 Enter in a password of your selection. Following the password prompt, you will get provided with the public address details and path of the secret key file. Note that down.
 
-![Nodes](Screenshots/Nodes_initialized.png)
+![Nodes](Screenshots/Nodes_initialized.PNG)
 
 # 4.2 To create blockchain genesis block:
 
@@ -86,7 +86,7 @@ Select yes to pre-fund the accounts with 1 Wei
 
 Enter 888 as the Chain ID.
 
-![Puppeth](Screenshots/puppeth_final.png)
+![Puppeth](Screenshots/puppeth_final.PNG)
 
 # 4.3 Initialise the new nodes with the testnet
 
@@ -100,7 +100,7 @@ For node 02:
 
 ./geth --datadir node02 init introblockchainnet.json
 
-![Puppeth](Screenshots/Nodes_initialized.png)
+![Puppeth](Screenshots/Nodes_initialized.PNG)
 
 
 
@@ -124,11 +124,11 @@ Copied from node01 initiation: enode://dfabd3ef10366735f1c51336628e8f1f756e0ea15
 
 (You will be required to enter your password to initialize both nodes)
 
-![Geth](Screenshots/run_node01.png)
+![Geth](Screenshots/run_node01.PNG)
 
 Following this process should have started the mining process, however in this instance it failed to connect with the peers.
 
-![Geth](Screenshots/node01_ini_failed.png)
+![Geth](Screenshots/node01_ini_failed.PNG)
 
 
 *Node 02 is a bootstrap node which allows you to pass the network info needed to find other nodes in the blockchain (i.e. tells your node
@@ -148,15 +148,15 @@ Currency: ETH
 Chain ID: 888
 URL: 127.0.0.1:8545
 
-![MyCryptoWallet](Screenshots/Mycrypto_setup.png)
+![MyCryptoWallet](Screenshots/Mycrypto_setup.PNG)
 
 Under normal circumstances, you should be able to transfer ETH from one node to another once you are connected to the test network. In this case, MyCrypto wallet failed to connect to the test network.
 
-![MyCryptoWallet](Screenshots/MyCrypto_network_fail.png)
+![MyCryptoWallet](Screenshots/MyCrypto_network_fail.PNG)
 
 In MyCrypto Wallet, click on 'view and send', then click on 'Keystore file' and select the file in the node01 folder. Unlock it using your password. From there on, you should be able to transfer Eth from one node to another. 
 
-![MyCryptoWallet](Screenshots/send_Eth_myCrypto.png)
+![MyCryptoWallet](Screenshots/send_Eth_myCrypto.PNG)
 
 
 
