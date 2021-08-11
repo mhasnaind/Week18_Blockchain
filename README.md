@@ -86,7 +86,6 @@ Select yes to pre-fund the accounts with 1 Wei
 
 Enter 888 as the Chain ID.
 
-![Puppeth](Screenshots/puppeth_final.PNG)
 
 When prompted, select 2. Manage existing genesis, by entering:
 
@@ -98,6 +97,7 @@ When prompted, select 2. Export genesis configurations, by entering:
 
 When prompted, hit enter again to save configurations to the current folder 'Blockchain-Tools' (default).
 
+![Puppeth](Screenshots/puppeth_final.PNG)
 
 # 4.3 Initialise the new nodes with the testnet
 
