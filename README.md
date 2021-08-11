@@ -49,7 +49,7 @@ Enter in a password of your selection. Following the password prompt, you will g
 
 ![Nodes](Screenshots/Nodes_initialized.PNG)
 
-# 4.2 To create blockchain genesis block:
+# 4.2 To create genesis block:
 
 In Gitbash access the Blockchain-Tools folder. Initiate puppeth with the following command:
 
@@ -87,6 +87,17 @@ Select yes to pre-fund the accounts with 1 Wei
 Enter 888 as the Chain ID.
 
 ![Puppeth](Screenshots/puppeth_final.PNG)
+
+When prompted, select 2. Manage existing genesis, by entering:
+
+2
+
+When prompted, select 2. Export genesis configurations, by entering:
+
+2
+
+When prompted, hit enter again to save configurations to the current folder 'Blockchain-Tools' (default).
+
 
 # 4.3 Initialise the new nodes with the testnet
 
